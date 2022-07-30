@@ -1,0 +1,136 @@
+.coverPage {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.rightCover {
+    width: 50%;
+    background-image: url(../images/cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+}
+
+.leftCover {
+    width: 50%;
+    background-color: #0f9964;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 0 10%;
+    position: relative;
+}
+
+.leftCover h1 {
+    margin-top: 40px;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.leftCover p {
+    color: #fff;
+}
+
+.leftCover .whatsapp_link {
+    margin-bottom: 40px;
+}
+
+.coverCall {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.coverCall img {
+    width: 25px;
+}
+
+.coverCall a {
+    text-decoration: none;
+    color: #ffd04c;
+    font-size: large;
+    font-weight: 500;
+}
+
+.keyFeature {
+    color: #fff;
+}
+
+.keyFeatureMobile {
+    display: none;
+}
+
+.keyFeature h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.keyFeature ul {
+    margin-left: 20px;
+}
+
+.keyFeature ul li {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 768px) {
+    .coverPage {
+        flex-direction: column;
+        height: 170vh;
+    }
+
+    .leftCover .whatsapp_link {
+        margin-bottom: 0;
+    }
+
+    .leftCover {
+        width: 100%;
+    }
+
+    .rightCover {
+        width: 100%;
+    }
+
+    .leftCover h1 {
+        font-size: 2.3rem;
+    }
+
+    .keyFeature {
+        display: none;
+    }
+
+    .keyFeatureMobile {
+        display: block;
+        background: #ffd04c;
+        margin: 1rem 0;
+        color: #223352;
+        width: 300px;
+        align-self: center;
+        border-radius: 5px;
+        padding: 8px;
+    }
+
+    .keyFeatureMobile h3 {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .keyFeatureMobile ul {
+        margin-left: 20px;
+    }
+
+    .keyFeatureMobile ul li {
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+}

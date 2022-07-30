@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/appointment.css">
+    <link rel="stylesheet" href="./style/coverPage.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/section.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="stylesheet" href="./style/reviews.css">
+    <link rel="stylesheet" href="./style/features.css">
+    <link rel="stylesheet" href="./style/servicePage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <title>SafeLockSmith</title>
+</head>
+<body>
+    <!-- -----------------------------------------Nav Bar------------------------------------------------- -->
+    <nav>
+      <div class="logo"><a href="./index.html">SafeLockSmith</a></div>
+      <div class="menu-btn">
+        <div class="menu-btn__burger"></div>
+      </div>
+      <ul class="menu">
+        <!-- <li><a href="#" id="langicon" onclick="setLanguage()" class="nl"> <img id="language_img"
+              src="images/united-kingdom.png" class="language"></a></li> -->
+        <li class="navServices">Services <img src="./images/angle-down-solid.svg" alt="">
+          <span>
+            <ul>
+              <li><a href="./doorLock.html">Opening Locks</a></li>
+              <li><a href="./carLock.html">Opening Cars</a></li>
+              <li><a href="./changeLock.html">Changing Locks</a></li>
+            </ul>
+          </span>
+        </li>
+        <li class="navServicesMobile"><a href="./doorLock.html">Opening Locks</a></li>
+        <li class="navServicesMobile"><a href="./carLock.html">Opening Cars</a></li>
+        <li class="navServicesMobile"><a href="./changeLock.html">Changing Locks</a></li>
+        <li><a href="./about.html" class="greenHover">About Us</a></li>
+        <li id="call">
+          <img src="./images/callTransparent.png" alt="call">
+          <a href="tel:+31638781116">Call Us</a>
+        </li>
+      </ul>
+    </nav>
+
+<!-- ------------------------------------------Bottom fixed button------------------------------------------ -->
+
+  <div class="contactFixed">
+    <a class="bottomText"
+        href="https://api.whatsapp.com/send?phone=+31638781116&text=Hello I need help in opening my lock"
+        target="_blank">
+        <button class="bottomBtnText"><img src="./images/whatsapp-brands.svg" alt=""> WhatsApp</button>
+    </a>
+    <a class="bottomCall" href="tel:+31638781116">
+      <button class="bottomBtnCall"><img src="./images/callTransparent.svg" alt=""> Call</button>
+    </a>
+  </div>
+
+  <!-- ------------------------------------------------Door Lock--------------------------------------------- -->
+
+  <div class="servicePage">
+      <div class="sidePanel" id="fixMe">
+        <div class="lockType"><a href="./about.html">
+            <img src="./images/aboutUs.png" alt="">
+            <div class="lockName" id="about">About Us</div></a>
+        </div>
+        <div class="lockType"><a href="./doorLock.html">
+            <img src="./images/door.png" alt="">
+            <div class="lockName" id="doorlock">Door Lock</div></a>
+        </div>
+        <div class="lockType active"><a href="./changeLock.html">
+            <img src="./images/locker.png" alt="">
+            <div class="lockName" id="changelock">Change Lock</div></a>
+        </div>
+        <div class="lockType"><a href="./carLock.html">
+            <img src="./images/car.png" alt="">
+            <div class="lockName" id="carlock">Car Lock</div></a>
+        </div>
+      </div>
+      <div class="mainContent">
+            <h1>Change any Locks</h1>
+            <h3>Get the Best Repair Services</h3>
+            <p>If it happened so that you can’t dig out own door, get to the apartment, to office, to the office or in a garage – specialists of our company will help to open a door without breaking to you.</p>
+            <p>Our company specializes in opening locks of any level of complexity. We open wooden, metal, armored doors of domestic and imported production. Professional locksmiths with many years of work practice are able to open doors quickly and without breaking, not only in the premises, but also in safes.</p>
+          <div class="reachForHelp">
+              <h2>Are You Locked<br>Out??</h2>
+              <p>Write to us, we will answer any question</p>
+              <a class="whatsapp_link"
+                href="https://api.whatsapp.com/send?phone=+31638781116&text=Hello I need help in opening my lock"
+                target="_blank"> <button class="appointBtn">Make an Appointment</button>
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <!-- -----------------------------------------Footer---------------------------------------- -->
+
+  <footer>
+    <div class="footer">
+      <div class="footerLeft">
+        <h1>We can Open any Lock.<br>We Work for You Seven Days a Week!</h1>
+        <div class="coverCall">
+          <img src="./images/callTransparent.svg" alt="call">
+          <a href="tel:+31638781116">+31638781116</a>
+        </div>
+        <p>Amsterdam</p>
+      </div>
+      <div class="locationFooter">
+        <h3>Our Workareas</h3>
+        <div class="workareasLocation">
+          <div class="grid-item" id="centrum"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Centrum</div>
+          <div class="grid-item" id="west"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam West</div>
+          <div class="grid-item" id="noord"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Noord</div>
+          <div class="grid-item" id="nieuw"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Nieuw West</div>
+          <div class="grid-item" id="oost"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Oost</div>
+          <div class="grid-item" id="zuid"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Zuid</div>
+          <div class="grid-item" id="oud"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Oud Zuid</div>
+          <div class="grid-item" id="zuidOost"><img src="./images/location-dot-solid.svg" alt=""> Amsterdam Zuid Oost</div>
+          <div class="grid-item" id="see-more-location"><a href="./location.html">See more</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="social">
+      <img src="./images/instagram-brands.svg" alt="">
+      <img src="./images/facebook-brands.svg" alt="">
+      <img src="./images/twitter-brands.svg" alt="">
+      <img src="./images/youtube-brands.svg" alt="">
+      <img src="./images/linkedin-brands.svg" alt="">
+    </div>
+    <div class="footer-line"></div>
+    <div class="copyright">
+      <p>© 2022 All rights reserved</p>
+    </div>
+  </footer>
+  <script src="./script/navBar.js"></script>
+</body>
+</html>

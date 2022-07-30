@@ -1,0 +1,67 @@
+.service>* {
+    margin: 10%;
+}
+
+.section_heading {
+    color: #223354;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.section_para {
+    color: #808080;
+    font-size: 17px;
+    margin: 2rem 10%;
+}
+
+.horizontal_line {
+    margin: 0 10%;
+    border-top: 2px solid #ececec;
+}
+
+.card_holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+    column-gap: 4rem;
+}
+
+.card {
+    margin-top: 1rem;
+    padding: 0;
+    padding-right: 4rem;
+}
+
+.card>* {
+    margin: 0.8rem 0;
+}
+
+.card_heading {
+    color: #223354;
+    font-weight: 600;
+}
+
+.card .logo {
+    width: 80px;
+    cursor: pointer;
+}
+
+.card_para {
+    font-size: 17px;
+    color: #808080;
+}
+
+@media only screen and (max-width: 768px) {
+    .service>* {
+        margin: 2rem 10%;
+    }
+
+    .card_holder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        padding-right: 0;
+    }
+}

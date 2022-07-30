@@ -1,0 +1,132 @@
+footer{
+    width: 100%;
+    background-color: #223354;
+    color: #fff;
+    padding: 10%;
+    padding-bottom: 5%;
+    position: relative;
+    bottom: 0;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background: #9199aa;
+    margin: 20px 0 2px 0;
+}
+.footer .footerLeft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer .footerLeft>*{
+    margin-bottom: 1rem;
+}
+.footer .footerLeft h1{
+    font-weight: 600;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social img{
+    margin-right: 1rem;
+    width: 30px;
+    cursor: pointer;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(205deg) brightness(107%) contrast(101%);
+}
+.social img:hover{
+    filter: invert(64%) sepia(9%) saturate(521%) hue-rotate(183deg) brightness(94%) contrast(82%);
+}
+.locationFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.locationFooter h3{
+    font-weight: 600;
+}
+.workareasLocation{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    position: relative;
+    gap: 3px;
+}
+.grid-item{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2px;
+    font-size: 17px;
+    color: #9199aa;
+    font-weight: 300;
+}
+#see-more-location{
+    color: #ffd04c;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#see-more-location a{
+    text-decoration: none;
+    color: #ffd04c;
+}
+.grid-item:hover{
+    color: #ffd04c;
+}
+.grid-item img{
+    width: 15px;
+    filter: invert(67%) sepia(6%) saturate(750%) hue-rotate(183deg) brightness(91%) contrast(84%);
+    margin-right: 5px;
+}
+.grid-item:hover img{
+    /* display: none; */
+    filter: invert(84%) sepia(90%) saturate(7498%) hue-rotate(318deg) brightness(103%) contrast(101%);
+}
+.copyright{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.workareasLocation span{
+    width: 330px;
+    padding: 2px 30px;
+    background: #9199aa;
+    color: #223354;
+    position: absolute;
+    left: -330px;
+    bottom: 5px;
+    z-index: 10;
+    border-radius: 5px;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    footer{
+        padding-bottom: 3rem;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer .footerLeft{
+        width: 100%;
+        height: unset;
+        margin-bottom: 2rem;
+        position: relative;
+    }
+    .footer .locationFooter{
+        margin-bottom: 2rem;
+    }
+}
